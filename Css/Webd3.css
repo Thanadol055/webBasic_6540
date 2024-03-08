@@ -188,16 +188,75 @@ td {
    
 }
 
-.Contract-box {
+.Box-Contract {
+    padding: 40px;
+}
+
+.textcon {
+    color: #495AB7;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.textparem{
+    text-align: center;
+    margin:10px 0px 10px 0px;
+}
+.contract{
     width: 1100px;
-    background-color: #fafafa;
     margin: auto;
-    box-shadow: 0px 0px 8px 2px lightblue;
-    border-radius: 20px;
-    padding: 1px 40px 40px;
+}
+
+.email{
+    margin-left: 420px;
+}
+
+.Name{
+    margin: auto; 
+   width: 500px;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: #fafafa(233, 128, 210);
+}
+
+.Email{
+   margin: auto; 
+   width: 500px;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: #fafafa(233, 128, 210); 
+}
+
+.Subject{
+   margin: auto; 
+   width: 1005px;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: #fafafa(233, 128, 210); 
+}
+
+.text-area{
+   margin: auto; 
+   width: 1005px;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: #fafafa; 
+   padding: 5%;
+}
+
+.button{
     text-align: center;
 }
 
-.Name {
-    justify-content: center;
+.sendmess{
+
+    border-radius: 40px;
+    padding: 10px;
+    margin: 30px;
+    width: 300px;
+    color: #fafafa;
 }
+
+footer {
+    background-color: #7888C2; 
+    text-align: center; 
+    color: aliceblue;
+    padding: 10px;
+    }
