@@ -1,0 +1,83 @@
+.mybg {
+    background: #B19CD8;
+}
+footer{
+    background: #B19CD8;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.logofooter{
+    width: 156px;
+    height: 74px;
+}
+
+.bulit {
+    text-transform: capitalize;
+    
+}
+
+.find_talent{
+    text-transform: capitalize;
+}
+
+.social {
+    text-transform: capitalize;
+}
+
+.various{
+    background-color: #D9D9D9;
+    width: 800px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.variousbg {
+    background: #D9D9D9;
+}
+
+.Team-Box{
+    background-color: #ffffff;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    border: solid;
+    margin-top: 20px;
+}
+
+.Team-Info {
+     /*background-color: blue; */
+    margin-left: 20px;
+    width: 3500px;
+    margin-top: 20px;
+}
+
+.Info {
+    background-color: #D9D9D9;
+    width: 350px;
+}
+
+.Hero-Box{
+    background-color: aqua;
+    display: flex;
+}
+
+.test {
+   /* background-color: aqua; */
+    display: flex;
+    margin: 20px 20px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin: 0px 0px 0px 70%;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
