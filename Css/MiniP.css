@@ -1,11 +1,23 @@
-.mybg {
-    background: #B19CD8;
+*{
+    margin: 0;
+    padding: 0;
 }
+body {
+    background: linear-gradient(90deg,#FFE2A9,#DDFF0E);
+
+}
+
+.mybg {
+   background-color: #FF7A00;
+}
+
+
 footer{
-    background: #B19CD8;
+    background: #FF7A00;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    text-align: center;
 }
 .logofooter{
     width: 156px;
@@ -14,7 +26,7 @@ footer{
 
 .bulit {
     text-transform: capitalize;
-    
+    width: 254px;
 }
 
 .find_talent{
@@ -67,17 +79,38 @@ footer{
 .test {
    /* background-color: aqua; */
     display: flex;
-    margin: 20px 20px;
+    width: 800px ;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
-    margin: 0px 0px 0px 70%;
+    width: 150px;
+    height: 150px;
+    animation: logospin 4s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes logospin {
+    from  {
+        transform: rotate(0deg);
+    }
+      25% {
+        transform: rotate(-45deg);
+      }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 a {
     text-decoration: none;
     color: black;
 }
+
+.form{
+    margin: 50px 0px 0px 50px;
+}
+
