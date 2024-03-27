@@ -155,3 +155,58 @@ a {
 .footer_team:hover{
     opacity: 1;
 }
+
+.varous {
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+ @media screen and (max-width:768px) {
+    .test {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        max-width: 95%;
+        margin: auto;
+    }
+} 
+
+ @media screen and (max-width:480px) {
+    .test {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        max-width: 95%;
+        margin: auto;
+    }
+} 
+
+ @media screen and (max-width:768px) {
+    .various{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+    }
+   
+}
+
+@media screen and (max-width:480px) {
+    .various{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+    }
+   
+} 
+
+ @media screen and (max-width:768px) {
+    .Design {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        max-width: 95%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Design {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        max-width: 95%;
+        margin: auto;
+    }
+} 
