@@ -10,7 +10,8 @@ body {
 }
 
 .mybg {
-   background-color: #FF7A00; 
+  /* background-color: #FF7A00; */
+  background-image: linear-gradient(to left, #799e97, #73ab8f, #81b57a, #a2ba5e, #ceba42);
 }
 
 .mybgteam {
@@ -18,7 +19,6 @@ body {
 }
 
 footer{
-    background: #FF7A00;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
