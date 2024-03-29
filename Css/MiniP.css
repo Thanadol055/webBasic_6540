@@ -9,6 +9,9 @@ body {
      background-color: aliceblue;
 }
 
+.bghero{
+    background-image: linear-gradient(to left bottom, #b27ab2, #a77fb9, #9b84be, #8f88c1, #838cc2, #7590c3, #6893c2, #5c96bf, #4d9ab9, #459cb1, #459ea6, #4e9f9a);
+}
 .mybg {
   /* background-color: #FF7A00; */
   background-image: linear-gradient(to left, #799e97, #73ab8f, #81b57a, #a2ba5e, #ceba42);
