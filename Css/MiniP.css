@@ -109,6 +109,7 @@ footer{
 .Hero-Box{
     background-color: aqua;
     display: flex;
+    
 }
 
 .test {
@@ -118,7 +119,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 .logo {
