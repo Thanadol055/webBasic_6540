@@ -123,8 +123,8 @@ footer{
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
+    /*width: 200px;*/
+    /*height: 200px;*/
     animation: logospin 4s;
     animation-iteration-count: infinite;
 }
