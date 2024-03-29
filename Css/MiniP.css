@@ -5,8 +5,8 @@
     padding: 0;
 }
 body {
-    background: linear-gradient(90deg,#FFE2A9,#DDFF0E);
-
+   /* background: linear-gradient(90deg,#FFE2A9,#DDFF0E); */ 
+     
 }
 
 .mybg {
